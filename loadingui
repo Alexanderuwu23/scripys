@@ -1,0 +1,199 @@
+local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+function NaDxwXfhhavjrNZAesdvs(data) m=string.sub(data, 0, 55) data=data:gsub(m,'')
+
+data = string.gsub(data, '[^'..b..'=]', '') return (data:gsub('.', function(x) if (x == '=') then return '' end local r,f='',(b:find(x)-1) for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end return r; end):gsub('%d%d%d?%d?%d?%d?%d?%d?', function(x) if (#x ~= 8) then return '' end local c=0 for i=1,8 do c=c+(x:sub(i,i)=='1' and 2^(8-i) or 0) end return string.char(c) end)) end
+
+
+ 
+
+
+local b=NaDxwXfhhavjrNZAesdvs('dVtMUWcHRgYFBAmcSRbdaWMaOKEQvaapdaGGQiSJSxnoZmsAOkAuTUmQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLw==')
+function MoWVpFZuWld(data) m=string.sub(data, 0, 55) data=data:gsub(m,NaDxwXfhhavjrNZAesdvs('JFebVQpuaoCsXLkgLkRruySSBkGacGogWfVMqrLNipVWONvSKanQRBD'))
+
+data = string.gsub(data, NaDxwXfhhavjrNZAesdvs('tFUXEcvwpbSxgyeQDmEHgmaXkYqXFQFBhmNQFiJrxFgnPZvpjjSZCPgW14=')..b..NaDxwXfhhavjrNZAesdvs('LOhQAXbVWvyySIbMalgpzVVvYJimJxktLXaLwoWgnHVQORLtnzgGNyePV0='), NaDxwXfhhavjrNZAesdvs('htGLpKlhndmkYFLfojMmVvQMKbSjOcPdzoFQtiVOeUAZRmUaJDyBpSJ')) return (data:gsub(NaDxwXfhhavjrNZAesdvs('aHPiUekMTxIUgXDsBeZhPOpRmUKgvLGnQuCAhvYKfEsoIvXaAuvlDETLg=='), function(x) if (x == NaDxwXfhhavjrNZAesdvs('mqHsQwmNNCWHINHuLvLWBKTOyBFqnVqktRxXmMJvqPBPpQhXXXAOvYrPQ==')) then return NaDxwXfhhavjrNZAesdvs('SwgheKxffRLInijaBwTHUuWsfFWuyfsEYSpoUNBZbNhOWBqgrvoGEmp') end local r,f=NaDxwXfhhavjrNZAesdvs('ZYnwqoCGdbaYFRkrpIpLClZOhqHvqcCdPRFBXejXLrnPZGIXBrLoEvE'),(b:find(x)-1) for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and NaDxwXfhhavjrNZAesdvs('CKPLTWngoWNMRoOWAFxYtoDRWEgRITcSJFnBOKtrmSRgasJYSTpnHmYMQ==') or NaDxwXfhhavjrNZAesdvs('sLapfpwmWbktHeEEtdFDVsCmOFCDGSoLtTMWAbTLpaXwVgUXeHBAsusMA==')) end return r; end):gsub(NaDxwXfhhavjrNZAesdvs('DRkPeHPhnoIdEsTULUlWRsSlEkQefZIoTjHZEIPmKYWssHkafSnnxanJWQlZCVkPyVkPyVkPyVkPyVkPyVkPw=='), function(x) if (#x ~= 8) then return NaDxwXfhhavjrNZAesdvs('FLQUfBRBVHJCXAkAoNIFqBEyDxkmiUjJnzEIlFlsDZWMkkwzbydJHJD') end local c=0 for i=1,8 do c=c+(x:sub(i,i)==NaDxwXfhhavjrNZAesdvs('tsyrzguMLyEGOuCWlGjplQrmHkAjwKfZsxdXEfiZRCVrLiONeEvMNqIMQ==') and 2^(8-i) or 0) end return string.char(c) end)) end
+
+
+ 
+
+
+local Loadingui = Instance.new(MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('CnpiEAkdUzezlEfIUEFCPpjZmbDSZEeACsURCdSWuEOtJBlUBVzpseuS2h3d1FNRGliVmFScUFFaWVMd1RTdEl1akRGZ3R5dlhqbFd5b3lFck5MdlR5a1ZPZXRoRW55RFUyTnlaV1Z1UjNWcA==')))
+local notification = Instance.new(MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('fOLpefSjPEwHAQNGzpgvzBWvGRYrwGOPJDXaswjFltupWmzbJEETGhiZWVaR1NEelFEcFRQS3VNU29pYUFjYlFSTEdza3ZsRlFFU2JhZ3pZb0VzdHVEeXRub2pSa2lPbFJuSmhiV1U9')))
+local Frame = Instance.new(MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('HTyaDuPuPEOkVSmIxLzwJLeqaQryqKRSaKfDnPWRvCVogQfwJmuTtVcT29NR0trUE13dmZOVGxnb3Byb2lIdlJIVHJscVB6Y3JEWFl1WHlDUUJpblhTZFF2dlZoSE9ScFJuSmhiV1U9')))
+local TextLabel2 = Instance.new(MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('RGikudkNxkbLlyWawrQzUZcWTxWnuKQKWPWnyuGBHQiOUCZwMjuvBxVaUxNWVFUWG1CUGtqZnN1bVJQVURYbFlESnVpZmhLWUFjcUFnT0pXRm9oWWhHdHp4U3JMamxCTVZHVjRkRXhoWW1Wcw==')))
+local TextLabel = Instance.new(MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('dZjoVUQTYBfzYmyFCyXSNiwgCtLyxyXZxsICvaLGsURBUjDbuDzzkfsampjQ3pNZUllY3dkZEJUZHdKd0NRVG1TWEJRb3dDSE11Tm1qSU9YdW50bldLVXZJTXd0c3ZLeVZHVjRkRXhoWW1Wcw==')))
+
+-- Properties
+
+Loadingui.Name = MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('clQLdpiKZpeyNCMivuoiLfnjkjPHVFRrwHCEaVXfbfnqrwTWmIpLvfccFZzdVJjZEdOQnlTV3dyZ1Z5d3dMeHZxS1JMY0dTU3JhYXB3dkVDcWdSdUN5S1VCVWFMSUNsUlRHOWhaR2x1WnlCMWFRPT0='))
+Loadingui.Parent = game.Players.LocalPlayer:WaitForChild(MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('AYylpNXSOzstONWMIzhZaCzbTRMMtJNiSOwxnmZLcOHvkJdIQUxPZZFdmZJYk16SmRWdVZCd2pvcmRYU0RHVENRb0dsbHVtend1TnJuem5PQ2VhaHhVZUpwbWRIdk1UTlVHeGhlV1Z5UjNWcA==')))
+Loadingui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+notification.Name = MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('gDJSVLSjfkuekmLwtrenRQxJpXKfoAmfSVVUGgIcEOnxkkGLQwYRKPTbkNmVEJVd29hdGZvalZwY0ZvWWx2Q1pHckhmR01HWUtyQk5Dc3hZbXpjekVaeXNrb0h1YWVVaGJtOTBhV1pwWTJGMGFXOXU='))
+notification.Parent = Loadingui
+notification.AnchorPoint = Vector2.new(0.5, 0.5)
+notification.BackgroundColor3 = Color3.new(0.176471, 0.176471, 0.176471)
+notification.BorderColor3 = Color3.new(0, 0, 0)
+notification.BorderSizePixel = 0
+notification.Position = UDim2.new(0.856000006, 0, 1, 55)
+notification.Size = UDim2.new(0, 203, 0, 100)
+
+Frame.Parent = notification
+Frame.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame.BorderColor3 = Color3.new(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Size = UDim2.new(0, 203, 0, 2)
+
+TextLabel2.Name = MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('OnSpnVAVAnokmMYVhTYsNJXCXGInDUBuXWBqdgJRvmvWhQvUMCaUhCPSVFPWHBHcXhOZndUVUp1eFBaQ1RlTVlmV2hGUXRFemdwZUZUR05UTnh4RnR1cE9HandDZHJFRlZHVjRkRXhoWW1Wc01nPT0='))
+TextLabel2.Parent = notification
+TextLabel2.BackgroundColor3 = Color3.new(0.215686, 0.215686, 0.215686)
+TextLabel2.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel2.BorderSizePixel = 0
+TextLabel2.Position = UDim2.new(0.182266012, 0, 0.0700000003, 0)
+TextLabel2.Size = UDim2.new(0, 129, 0, 20)
+TextLabel2.Font = Enum.Font.Ubuntu
+TextLabel2.Text = MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('HaZmNiLHefteszExqfAfvYuuBxVSETrsqRTyINxlQlXPBpjlrujqtMWRnRaS0pycEJzVHBYTFJKUFpXUHl1U0ViVVR2S0locEluUU9IS0VLemxvSWFQSkhzYXdjbllueVRtOTBhV1pwWTJGMGFXOXU='))
+TextLabel2.TextColor3 = Color3.new(1, 1, 1)
+TextLabel2.TextSize = 14
+
+TextLabel.Parent = notification
+TextLabel.BackgroundColor3 = Color3.new(0.215686, 0.215686, 0.215686)
+TextLabel.BackgroundTransparency = 1
+TextLabel.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0394088663, 0, 0.5, 0)
+TextLabel.Size = UDim2.new(0, 186, 0, 15)
+TextLabel.Font = Enum.Font.Ubuntu
+TextLabel.Text = MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('VkOkDRVBxYiJLSUEUPVMUydOStBIdchMaEvcPCRmCtirDzWeiTuGuWSaVNTaFZTSGJRbEpMaUJsYkNwY2ZUQUNxRFhIbWJzT3R4QUZHc2hERGpoYnJkUFZ2YWdJdWtaalUzUjFjR2xrSUhSbGVIUWdkMmwwYUNCaElIZz0='))
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 5
+TextLabel.TextWrapped = true
+
+-- Module Scripts
+
+local fake_module_scripts = {}
+
+do -- Loadingui.NotificationModule
+	local script = Instance.new(MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('UbHRWJMCedSgGqCAlwCvOtmbestGnQqgEZNxjwnZpohMVhqMkFVxATCQXZaaEZHdnhpT1hHSlZvcWdIVVFRek1vSWF1SGhvUmRxd2FCbXZLTG9kWFZwZ25EdUJQSUttY1RXOWtkV3hsVTJOeWFYQjA=')), Loadingui)
+	script.Name = MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('zXzsYtvmYDlKuQkHpbUTVIoLnFmMZRaSbrdwCnkxIAagYOsAkdOPsZVb3NBQm1ndXpBbXJXcW1XWmpOTUlHZVBDQlVYTFljYnZ4TXhsVEVHZ09VRURVRmRaQk13akxOalRtOTBhV1pwWTJGMGFXOXVUVzlrZFd4bA=='))
+	local function module_script()
+		local NotificationModule = {}
+		
+		local TweenService = game:GetService(MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('vBIwpOdrEpmrhziOGoJulmzeCLtHoLsdRTBGaDuvgojzRlkYYIYPBTTWlNpWHdVVEZncUxlWkN1cUZFR05JbWNtaXh2Q2VaWHpRWXVmRW1laVdmT25tWlJsdVFJTUFURVZIZGxaVzVUWlhKMmFXTmw=')))
+		local ScreenGui = script.Parent
+		local NotificationFrame = ScreenGui:WaitForChild(MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('BjlKOPHtfKTuKlwXSLzCcfcSDdHRMnZftPskNeGnOxrqsScrohNLuiyY0lxV01RSnFYRmdoS0JLckxEZmxrc1lXanpsTGhlY0JSUk9yVXVSRnpTbGRYRFNNUlpVb0lIbmJtOTBhV1pwWTJGMGFXOXU=')))
+		
+		function NotificationModule.ShowNotification(text)
+			local TextLabel = NotificationFrame:FindFirstChild(MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('UavKZtiyjXvZKerbrdKOwMHNlEllfJLTQJYxefqHzDlFdvXibDRilttRGtOeWNBeWR2Zkhsa3VCakhTSFVUbGJ0SVZiSm9qSGFVcXFET2dxb21lc3NUc3JaeW9welRaVFZHVjRkRXhoWW1Wcw==')))
+			if TextLabel then
+				TextLabel.Text = text
+			end
+		
+			
+			NotificationFrame.Position = UDim2.new(0.856, 0, 1, 55)
+		
+			
+			local showTweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut)
+			local showGoal = { Position = UDim2.new(0.856, 0, 0.876, 0) }
+			local showTween = TweenService:Create(NotificationFrame, showTweenInfo, showGoal)
+		
+		
+			local hideTweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut)
+			local hideGoal = { Position = UDim2.new(0.856, 0, 1, 55) }
+			local hideTween = TweenService:Create(NotificationFrame, hideTweenInfo, hideGoal)
+		
+			
+			showTween:Play()
+			showTween.Completed:Connect(function()
+				wait(2)
+				hideTween:Play()
+			end)
+		end
+		
+		return NotificationModule
+	end
+	fake_module_scripts[script] = module_script
+end
+
+
+-- Scripts
+
+local function RFKZB_fake_script() -- Frame.Script 
+	local script = Instance.new(MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('JSoNgmJWfVWcsyYNmcxuxxcFUpOtAPLolYkLMonEZNMcawswTdKIYlub3RlaUJTWGd4TklrSGltWVVOV2daS3ZjeU9iU1pZQlB1c01JR2paelVHZGx4TlZjY1BVVGhLbVUyTnlhWEIw')), Frame)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local parentObject = script.Parent
+	local tweenService = game:GetService(MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('fSITbYcsTDwZQvEioYPwHBAFENkLSQBwzNqpdaaUshkBLxrVnkMkaPPendXWmFwaXBFeHlWUElOaVBrbURvQVdpSFhlWVp6ekNITGNMRnhwVG1oY0NSWmFlZlRRYm10WFZIZGxaVzVUWlhKMmFXTmw=')))
+	
+	local function changeColor()
+		local tweenInfo = TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut)
+		tweenService:Create(parentObject, tweenInfo, {BackgroundColor3 = Color3.new(1, 0, 0)}):Play()
+		wait(2)
+		tweenService:Create(parentObject, tweenInfo, {BackgroundColor3 = Color3.new(1, 0.368627, 0.368627)}):Play()
+		wait(2)
+		tweenService:Create(parentObject, tweenInfo, {BackgroundColor3 = Color3.new(1, 0.72549, 0.72549)}):Play()
+		wait(2)
+	end
+	
+	while true do
+		changeColor()
+	end
+end
+coroutine.wrap(RFKZB_fake_script)()
+local function UHRVPO_fake_script() -- Loadingui.LocalScript 
+	local script = Instance.new(MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('WASWeDyADTVKPdbBCrCedDbCnAYqNKxXxWZEQJYptIrJxqnPlHlorpccGRsUUtRWFBDdUNqdHVmQ1VUTFlUVmFOa0lZUEl6UXVxY3JBQndpVml0cFBxR25QRUlUWHRTTlRHOWpZV3hUWTNKcGNIUT0=')), Loadingui)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local NotificationModule = require(script.Parent.NotificationModule)
+	local games = {
+		[155615604] = MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('PtAJlDePPdUWSwxvINduTKOmGOdndWpWbTJWlcfypnlZthtsZwFNloxb3pmS3lzTHdpemVaVW5xZmtyRVJIbWdIWUtxVmhrTHVlU2lQRVFaSXl5eUNwbUNpTHhxZEhiQlVISnBjMjl1SUV4cFptVT0=')),
+		[2248408710] = MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('wbqJcgAYYArrtIkkrvGKvOJaDiCgsqpgfEosimIHCzoTzCjYnrCdaFBVk9OYlVldXRnUkJDbGF2RWVOd3dtbFJOTndJblFtRUtmcEVhbVpscE9xQ0p0ZExKRG5vdnNiTlJHVnpkSEoxWTNScGIyNGdVMmx0ZFd4aGRHOXk=')),
+		[662417684] = MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('WXFaSKxNwhVPOpYgRAvLjVmeEQyZThrTUyeTkxEKmepUEkfGjhQrqBbQnhHblBqUmFldlNxT3VSeWJGWVR2VWlBaGtXVFNweXhXdUNUUXVmcWVVU3FXQnVvcWxRQWZjbVRIVmphM2xDYkc5amEzTWdRbUYwZEd4bFozSnZkVzVrY3c9PQ==')),
+		[15880628583] = MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('WXMKFVqeTTbOSRvVpBzJKyJSRGpciFiPRdudXAKqoUkvHdwCFRKQQpUZ01zV0hZUG5WRGZzSUhXbHVnQ0ZWYk1SQVZCUFpVeHhsWEtDZGJJUUZxalhHQ0JLb2NlelNWYlRXOXVhMlY1SUU5aVluaz0='))
+	}
+	
+	local scripts = {
+		[155615604] = function() 
+			loadstring(game:HttpGet(MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('AsXlfoEHkXVuAqccTiXNSJaxCFsDzbNKJLuUHNVdcxWqLLEMQdOjxuEWm5TWFBxd3lxSlJXd2VxYWpQSmVWdExUSlVmbEdOVEVwaUl2dG1oaWFXVVhlb1prUFluWmZtY2FIUjBjSE02THk5eVlYY3VaMmwwYUhWaWRYTmxjbU52Ym5SbGJuUXVZMjl0TDBGc1pYaGhibVJsY25WM2RUSXpMM05qY21sd2VYTXZjbVZtY3k5b1pXRmtjeTl0WVdsdUwzQnlhWE52YmlVeU1HeHBabVU9'))))()
+		end,
+		[2248408710] = function() 
+			loadstring(game:HttpGet(MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('LtQjdhpNJyfLZoxJwJtqJxZyEUMXhDwPvgLECujeOYovbcbPfkXbgSodG5WRUJPdUNmbUxjRXRxZVRaTFFOQnpNeU5sb1lmQ05id3poUkxTUkFObnpwR1NOU2NiZlRaeGFIUjBjSE02THk5eVlYY3VaMmwwYUhWaWRYTmxjbU52Ym5SbGJuUXVZMjl0TDBGc1pYaGhibVJsY25WM2RUSXpMM05qY21sd2VYTXZjbVZtY3k5b1pXRmtjeTl0WVdsdUwyUmxjM1J5ZFdOMGFXOXVKVEl3YzJsdGRXeGhkRzl5'))))()
+		end,
+		[662417684] = function() 
+			loadstring(game:HttpGet(MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('VPovZqkhwUISvodLtuSeDOZrENtilfQzWWCXycBiKXgXwBYRACHGkzVY3Z3d0t1cUNpR2dLa2drUmxQUG9TTG9JVk12YkxlYkdaQ0lBdmhSVW1mVEhCcmVjb2VhbHdFc2FIUjBjSE02THk5eVlYY3VaMmwwYUhWaWRYTmxjbU52Ym5SbGJuUXVZMjl0TDBGc1pYaGhibVJsY25WM2RUSXpMM05qY21sd2VYTXZjbVZtY3k5b1pXRmtjeTl0WVdsdUwyeDFZMnQ1WW14dlkycz0='))))()
+		end,
+		[15880628583] = function() 
+			loadstring(game:HttpGet(MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('TRhXomGkzEKtMLSDltzeJACoLLBGHfnrhXuIkewCrZEsMBxUkIVYOrOT1VOS0JwVHh3ZEpXd3lRZ3NBa3RPV2hDZkt4aFhRYmVycnlGaHZCZ1JiUWRJY2lHUXpuQk92b2FIUjBjSE02THk5eVlYY3VaMmwwYUhWaWRYTmxjbU52Ym5SbGJuUXVZMjl0TDBGc1pYaGhibVJsY25WM2RUSXpMM05qY21sd2VYTXZjbVZtY3k5b1pXRmtjeTl0WVdsdUwyMXZibXRsZVNVeU1HOWlZbms9'))))()
+	    end
+	}
+	
+	local gameId = tonumber(game.PlaceId)
+		local gameName = games[gameId] or MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('TcrPXcwHxNBcYqPTzhYnfhgfJXHChycYtnVRQUHmqfwpYpwvnfANXVKUEtXZ2FVUFlKZnNVbVR2TFpWRFZKTmdnakFsUmRobndwS0FNbFBnU2FJemRlRGpxVURhUUJxZVZXNXJibTkzYmlCSFlXMWw='))
+	
+	NotificationModule.ShowNotification(MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('LeNIXaGJbEehENFLqVQNhUXNmueKQjkGmmJILmixUPyxCJatHiwHmyFc2h1RW1MR0tJZ3NGSE9HUFhaVnRpVWlHVFR4eVNTVW16S3RhRWR2VnV0WU1ITExrdmJyamNtRVIyRnRaU0E9')) .. gameName .. MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('JnXhvnavlbMxqNwiIRZnBtMaoQXoYLDjHmfOytULfQKxyWguJFTkzJJSnVXRHBGR3pHSk5OZ3N0dkVselN2cXFLdHpoUHZLZGhjU1RjZGt3Y05DTVhqblNmb1RLd0tPdElHUmxkR1ZqZEdWa0lRPT0=')))
+	wait(5)
+	NotificationModule.ShowNotification(MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('NtTgLHvkJAmnpgOcMLiDNsIOQfDFGCYNaFKiVMxgkbYPvijWDALwIZpbnVZV0dpVmxwZEdOenZZT29YQUdhVkFvU3lhY0dzdklqS0plcEdCYlNOQ3NOeGV4d1pKRXBWcVRHOWhaR2x1WnlCc2IyRmtaWElnY0d4bFlYTmxJSGRoYVhRaA==')))
+	wait(2)
+	if scripts[gameId] then
+		scripts[gameId]()
+	else
+		NotificationModule.ShowNotification(MoWVpFZuWld(NaDxwXfhhavjrNZAesdvs('xbwJwBDLERNmyPXbESbJbuLIZzcUbXAznCcECkuyjJqugNJkPewQabQbmdKdWlZUG5LTHVxeEZuQ3ZyRlBjRFJoQmFtaFdHbGxOWWhTbHB5QVlnR2ZHQXpxZHVBV2ZaUFRtOGdjMk55YVhCMElHRjJZV2xzWVdKc1pTQm1iM0lnZEdocGN5Qm5ZVzFsTGc9PQ==')))
+	end
+	
+end
+coroutine.wrap(UHRVPO_fake_script)()
+        
